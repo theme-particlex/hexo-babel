@@ -13,18 +13,17 @@ npm i hexo-renderer-babeljs -S
 ```yaml
 babel:
     options:
-        presets:
-            - - "@babel/preset-env"
     exclude:
         - "*.min.js"
         - "**/*.min.js"
 ```
 
-这是默认设置，`options` 设置详见 [Options · Babel](https://babel.dev/docs/en/options)，要转换为 YAML
+这是默认设置，`options` 详见 [Options - Babel](https://babel.dev/docs/en/options)
 
 例如这是一种配置
 
 ```yaml
+# _config.yml
 babel:
     options:
         presets:
@@ -34,4 +33,30 @@ babel:
     exclude:
         - "*.min.js"
         - "**/*.min.js"
+```
+
+或者用 `babel.config.json`
+
+```yaml
+# _config.yml, without "options"
+babel:
+    options:
+    exclude:
+        - "*.min.js"
+        - "**/*.min.js"
+```
+
+```json
+// babel.config.json
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": "last 5 versions, not dead, > 0.3%",
+                "modules": false
+            }
+        ]
+    ]
+}
 ```
