@@ -29,7 +29,7 @@ babel:
     options:
         presets:
             - - "@babel/preset-env"
-              - targets: "last 10 versions, not dead, > 0.3%"
+              - targets: "last 5 versions, not dead, > 0.3%"
                 modules: false
     exclude:
         - "*.min.js"
