@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-babeljs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A plugin to compile JS for Hexo, using Babel.",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/argvchs/hexo-renderer-babeljs#readme",
   "dependencies": {
-    "@babel/core": "^7.20.5",
+    "@babel/core": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
     "micromatch": "^4.0.5"
   }
