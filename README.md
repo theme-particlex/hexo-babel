@@ -1,11 +1,11 @@
-# Hexo-Renderer-BabelJS
+# Hexo-Babel
 
-[Hexo-Renderer-BabelJS](https://github.com/argvchs/hexo-renderer-babeljs) 插件，使用 Babel 编译转换 JS 文件
+[Hexo-Babel](https://github.com/argvchs/hexo-babel) 插件，使用 Babel 编译转换 JS 文件
 
 ## 安装
 
 ```bash
-npm i hexo-renderer-babeljs -S
+npm i hexo-babel -S
 ```
 
 ## 配置
@@ -38,7 +38,7 @@ babel:
 或者用 `babel.config.json`
 
 ```yaml
-# _config.yml, without "options"
+# _config.yml without "options"
 babel:
     options:
     exclude:

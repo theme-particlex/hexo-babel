@@ -1,5 +1,5 @@
 {
-  "name": "hexo-renderer-babeljs",
+  "name": "hexo-babel",
   "version": "1.0.7",
   "description": "A plugin to compile JS for Hexo, using Babel.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/argvchs/hexo-renderer-babeljs.git"
+    "url": "git+https://github.com/argvchs/hexo-babel.git"
   },
   "keywords": [
     "babel",
@@ -20,11 +20,11 @@
   "author": "Argvchs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/argvchs/hexo-renderer-babeljs/issues"
+    "url": "https://github.com/argvchs/hexo-babel/issues"
   },
-  "homepage": "https://github.com/argvchs/hexo-renderer-babeljs#readme",
+  "homepage": "https://github.com/argvchs/hexo-babel#readme",
   "dependencies": {
-    "@babel/core": "^7.20.7",
+    "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
     "micromatch": "^4.0.5"
   }
