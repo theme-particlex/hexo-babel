@@ -1,7 +1,12 @@
 const babel = require("@babel/core");
 const { isMatch } = require("micromatch");
 const config = Object.assign(
-    { options: { presets: [["@babel/preset-env"], {}] }, exclude: [] },
+    {
+        options: {
+            presets: [["@babel/preset-env"], {}],
+        },
+        exclude: [],
+    },
     hexo.config.babel
 );
 hexo.extend.renderer.register(
