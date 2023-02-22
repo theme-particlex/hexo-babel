@@ -1,6 +1,6 @@
 {
   "name": "hexo-babel",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A plugin to compile JS for Hexo, using Babel.",
   "main": "index.js",
   "scripts": {
