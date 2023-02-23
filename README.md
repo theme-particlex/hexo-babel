@@ -21,7 +21,7 @@ babel:
 例如这是一种配置（要先安装 `@babel/preset-env`）
 
 ```bash
-pnpm add @babel/preset-env
+pnpm add @babel/core @babel/preset-env -D
 ```
 
 ```yaml
