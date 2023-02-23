@@ -1,6 +1,6 @@
 hexo.config.babel = Object.assign(
     {
-        options: { presets: [["@babel/preset-env"], {}] },
+        options: {},
         exclude: ["*.min.js"],
     },
     hexo.config.babel

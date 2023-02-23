@@ -18,7 +18,11 @@ babel:
 
 `options` 详见 [Options · Babel](https://babel.dev/docs/en/options) 和 [@babel/preset-env · Babel](https://babel.dev/docs/en/babel-preset-env#options)
 
-例如这是一种配置
+例如这是一种配置（要先安装 `@babel/preset-env`）
+
+```bash
+pnpm add @babel/preset-env
+```
 
 ```yaml
 babel:
