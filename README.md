@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-pnpm add hexo-babel @babel/core @babel/preset-env
+pnpm add hexo-babel
 ```
 
 ## 配置
