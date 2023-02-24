@@ -14,6 +14,7 @@ pnpm add hexo-babel
 babel:
     options:
     exclude:
+        - "*.min.js"
 ```
 
 `options` 详见 [Options · Babel](https://babel.dev/docs/en/options) 和 [@babel/preset-env · Babel](https://babel.dev/docs/en/babel-preset-env#options)
@@ -32,6 +33,7 @@ babel:
               - targets: last 5 versions, not dead, > 0.3%
         sourceType: script
     exclude:
+        - "*.min.js"
 ```
 
 或者不填 `options` 参数，使用 `babel.config.json`

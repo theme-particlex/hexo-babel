@@ -1,7 +1,7 @@
 hexo.config.babel = Object.assign(
     {
         options: {},
-        exclude: ["*.min.js"],
+        exclude: [],
     },
     hexo.config.babel
 );
