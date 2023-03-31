@@ -2,13 +2,13 @@
 
 [Hexo-Babel](https://github.com/argvchs/hexo-babel) 插件，使用 Babel 编译转换 JS 文件
 
-## 安装
+# 1. 安装
 
 ```bash
 pnpm add hexo-babel
 ```
 
-## 配置
+# 2. 配置
 
 ```yaml
 babel:
