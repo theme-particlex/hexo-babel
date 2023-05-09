@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/argvchs/hexo-babel.git"
+    "url": "git+https://github.com/theme-particlex/hexo-babel.git"
   },
   "keywords": [
     "babel",
@@ -19,9 +19,9 @@
   "author": "Argvchs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/argvchs/hexo-babel/issues"
+    "url": "https://github.com/theme-particlex/hexo-babel/issues"
   },
-  "homepage": "https://github.com/argvchs/hexo-babel#readme",
+  "homepage": "https://github.com/theme-particlex/hexo-babel#readme",
   "dependencies": {
     "@babel/core": "^7.21.4",
     "micromatch": "^4.0.5"
