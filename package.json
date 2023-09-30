@@ -1,6 +1,6 @@
 {
   "name": "hexo-babel",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "A plugin to compile JS for Hexo, using Babel.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/theme-particlex/hexo-babel#readme",
   "dependencies": {
-    "@babel/core": "^7.22.11",
+    "@babel/core": "^7.23.0",
     "micromatch": "^4.0.5"
   }
 }

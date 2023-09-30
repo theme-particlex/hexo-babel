@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@babel/core':
-    specifier: ^7.22.11
+    specifier: ^7.23.0
     version: 7.23.0
   micromatch:
     specifier: ^4.0.5
@@ -26,12 +26,12 @@ packages:
     resolution: {integrity: sha512-XktuhWlJ5g+3TJXc5upd9Ks1HutSArik6jf2eAjYFyIOf4ej3RN+184cZbzDvbPnuTJIUhPKKJE3cIsYTiAT3w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/highlight': 7.22.13
+      '@babel/highlight': 7.22.20
       chalk: 2.4.2
     dev: false
 
-  /@babel/compat-data@7.22.9:
-    resolution: {integrity: sha512-5UamI7xkUcJ3i9qVDS+KFDEK8/7oJ55/sJMB1Ge7IEapr7KfdfV/HErR+koZwOfd+SgtFKOKRhRakdg++DcJpQ==}
+  /@babel/compat-data@7.22.20:
+    resolution: {integrity: sha512-BQYjKbpXjoXwFW5jGqiizJQQT/aC7pFm9Ok1OWssonuguICi264lbgMzRp2ZMmRSlfkX6DsWDDcsrctK8Rwfiw==}
     engines: {node: '>=6.9.0'}
     dev: false
 
@@ -72,9 +72,9 @@ packages:
     resolution: {integrity: sha512-y6EEzULok0Qvz8yyLkCvVX+02ic+By2UdOhylwUOvOn9dvYc9mKICJuuU1n1XBI02YWsNsnrY1kc6DVbjcXbtw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/compat-data': 7.22.9
+      '@babel/compat-data': 7.22.20
       '@babel/helper-validator-option': 7.22.15
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       lru-cache: 5.1.1
       semver: 6.3.1
     dev: false
@@ -160,8 +160,8 @@ packages:
       - supports-color
     dev: false
 
-  /@babel/highlight@7.22.13:
-    resolution: {integrity: sha512-C/BaXcnnvBCmHTpz/VGZ8jgtE2aYlW4hxDhseJAWZb7gqGM/qtCK6iZUb0TyKFf7BOUsBH7Q7fkRsDRhg1XklQ==}
+  /@babel/highlight@7.22.20:
+    resolution: {integrity: sha512-dkdMCN3py0+ksCgYmGG8jKeGA/8Tk+gJwSYYlFGxG5lmhfKNoAy004YpLxpS1W2J8m/EK2Ew+yOs9pVRwO89mg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-validator-identifier': 7.22.20
@@ -257,19 +257,19 @@ packages:
       fill-range: 7.0.1
     dev: false
 
-  /browserslist@4.21.10:
-    resolution: {integrity: sha512-bipEBdZfVH5/pwrvqc+Ub0kUPVfGUhlKxbvfD+z1BDnPEO/X98ruXGA1WP5ASpAFKan7Qr6j736IacbZQuAlKQ==}
+  /browserslist@4.22.1:
+    resolution: {integrity: sha512-FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001524
-      electron-to-chromium: 1.4.504
+      caniuse-lite: 1.0.30001541
+      electron-to-chromium: 1.4.537
       node-releases: 2.0.13
-      update-browserslist-db: 1.0.11(browserslist@4.21.10)
+      update-browserslist-db: 1.0.13(browserslist@4.22.1)
     dev: false
 
-  /caniuse-lite@1.0.30001524:
-    resolution: {integrity: sha512-Jj917pJtYg9HSJBF95HVX3Cdr89JUyLT4IZ8SvM5aDRni95swKgYi3TgYLH5hnGfPE/U1dg6IfZ50UsIlLkwSA==}
+  /caniuse-lite@1.0.30001541:
+    resolution: {integrity: sha512-bLOsqxDgTqUBkzxbNlSBt8annkDpQB9NdzdTbO2ooJ+eC/IQcvDspDc058g84ejCelF7vHUx57KIOjEecOHXaw==}
     dev: false
 
   /chalk@2.4.2:
@@ -307,8 +307,8 @@ packages:
       ms: 2.1.2
     dev: false
 
-  /electron-to-chromium@1.4.504:
-    resolution: {integrity: sha512-cSMwIAd8yUh54VwitVRVvHK66QqHWE39C3DRj8SWiXitEpVSY3wNPD9y1pxQtLIi4w3UdzF9klLsmuPshz09DQ==}
+  /electron-to-chromium@1.4.537:
+    resolution: {integrity: sha512-W1+g9qs9hviII0HAwOdehGYkr+zt7KKdmCcJcjH0mYg6oL8+ioT3Skjmt7BLoAQqXhjf40AXd+HlR4oAWMlXjA==}
     dev: false
 
   /escalade@3.1.1:
@@ -419,13 +419,13 @@ packages:
       is-number: 7.0.0
     dev: false
 
-  /update-browserslist-db@1.0.11(browserslist@4.21.10):
-    resolution: {integrity: sha512-dCwEFf0/oT85M1fHBg4F0jtLwJrutGoHSQXCh7u4o2t1drG+c0a9Flnqww6XUKSfQMPpJBRjU8d4RXB09qtvaA==}
+  /update-browserslist-db@1.0.13(browserslist@4.22.1):
+    resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       escalade: 3.1.1
       picocolors: 1.0.0
     dev: false
