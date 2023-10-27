@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/theme-particlex/hexo-babel#readme",
   "dependencies": {
-    "@babel/core": "^7.23.0",
+    "@babel/core": "^7.23.2",
     "micromatch": "^4.0.5"
   }
 }
