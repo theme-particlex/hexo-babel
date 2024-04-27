@@ -1,2 +1,7 @@
-hexo.config.babel = Object.assign({ options: {}, exclude: [] }, hexo.config.babel);
-hexo.extend.renderer.register("js", "js", require("./lib/renderer.js"));
+const { transformSync } = require("@babel/core");
+const { isMatch } = require("micromatch");
+hexo.extend.renderer.register("js", "js", ({ path, text }) => {
+    let { options = {}, exclude = [] } = hexo.config.babel;
+    if (isMatch(path, exclude, { basename: true })) return text;
+    return transformSync(text, options).code;
+});
